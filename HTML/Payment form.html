@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="payment_form.css">
+</head>
+<body>
+    <h1>THIS IS A PAYMENT FORM</h1>
+    <form action="">
+    <br>
+        <legend><h1>Personal informatiomn</h1></legend>
+        <p>ENTER YOUR NAME : <input type="text"></p>
+        <p>ENTER YOUR DOB  : <input type="text"> </p>
+        <p><input type="submit"> <input type="reset"></p>
+        <fieldset>
+        <legend>Gender</legend>
+        <p>Male<input type="radio" name="gender" id="Male"></p>
+        <p>Female<input type="radio" name="gender" id="Female"></p>
+        <p>LGBTQ<input type="radio" name="gender" id="LGBTQ"></p>
+        </fieldset>
+        <p>Address : <textarea name="address" id="address" cols="30" rows="5"></textarea></p>
+        <p>Email : <input type="email" name="mail" id="mail"></p>
+        <p>Pincode : <input type="number" name="pincode" id="pincode"></p>
+        <fieldset>
+
+            <h2>Payment confidentials</h2>
+            <p>Bank_of_the_card :
+                <select name="bank" id="bank">
+                    <option value="">!!--Please_select_a_bank--!!"</option>
+                    <option value="SBI">SBI</option>
+                    <option value="swiss_bank">Swiss_Bank</option>
+                    <option value="HDFC">HDFC</option>
+                </select>
+            </p>
+            <p>Enter your card number : <input type="number" name="card number" id="card number"></p>
+            <p>Validity of your card : <input type="date" name="card Validity" id="card Validity"></p>
+            <p>C.V.V. : <input type="password" name="cvv" id="cvv"></p>
+            <p><input type="submit" name="submit" id="submit" value="Pay Now"></p>
+
+        </fieldset>
+        
+
+    </form>
+</body>
+</html>

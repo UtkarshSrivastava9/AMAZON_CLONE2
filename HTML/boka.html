@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #7d00b9; /* Matches the purple background */
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px; /* Spacing between links */
+            font-size: 24px; /* Font size */
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#skills" class="active">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#recommendation">Recommendation</a>
+    </div>
+</body>
+</html>
